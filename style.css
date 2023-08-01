@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #007bff;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-info-item {
+  margin: 10px;
+}
+
+.contact-icon {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.work-experience {
+  margin-bottom: 20px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.position-of-responsibility {
+  margin-bottom: 20px;
+}
+
+.achievement {
+  margin-bottom: 20px;
+}
+
+.extra-curricular {
+  margin-bottom: 20px;
+}
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #888;
+}
