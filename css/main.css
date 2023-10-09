@@ -1,0 +1,48 @@
+main {
+  margin: 100px 0;
+}
+
+#edu div{
+    width: 50%;
+    margin: 20px auto 20px auto;
+    text-align: left;
+}
+#edu h3{
+    text-align: center;
+}
+
+#exp div{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+#exp h3{
+    text-align: center;
+}
+
+#skills div{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+}
+#skills h3{
+    text-align: center;
+}
+
+#proj div{
+    width: 50%;
+    margin: 10px auto 10px auto;
+    text-align: left;
+}
+#proj h3{
+    text-align: center;
+}
+
+#pors div{
+    width: 50%;
+    margin: 10px auto 10px auto;
+    text-align: left;
+}
+#pors h3{
+    text-align: center;
+}

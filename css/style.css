@@ -5,18 +5,6 @@ body {
   font-family: 'Merriweather', serif;
 }
 
-.nav{
-  background-color: black;
-  overflow: hidden;
-
-  list-style-type: none;
-  padding: 1%;
-}
-.nav a {
-  color: white;
-  /* color: #11999E; */
-}
-
 h1 {
   color: white;
   font-size: 5.625rem;
@@ -25,12 +13,8 @@ h1 {
   text-shadow: 2px 2px #ff0000;
 }
 
-.pro {
-  text-decoration: underline;
-}
-
 h2 {
-  color: #11999E;
+  color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
@@ -47,9 +31,9 @@ p {
 }
 
 hr {
-  border: dashed #EAF6F6 6px;
+  border: dotted #EAF6F6 6px;
   border-bottom: none;
-  width: 70%;
+  width: 4%;
   margin: 100px auto;
 }
 
@@ -57,46 +41,13 @@ a{
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
+  text-decoration: none;
 }
 
 a:hover {
   color: purple;
 }
 
-/* Conatiners  */
-.top-container {
-  background-color: #E4F9F5;
-  position: relative;
-  padding-top: 100px;
-}
-.middle-container {
-  margin: 100px 0;
-}
-.bottom-container {
-  display: block;
-  flex-direction: column;
-  background-color: #66BFBF;
-  padding: 50px 0 20px;
-}
-
-/* row wise contents inside section */
-.edu-row{
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-}
-.exp-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-}
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-}
-.proj-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
+ul{
+  list-style: none;
 }
