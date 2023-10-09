@@ -20,6 +20,14 @@
 	color: white;
 }
 
+.title-text {
+  padding-top: 10%; /* Default padding for laptops and larger screens */
+}
+@media only screen and (max-width: 800px) {
+  .title-text {
+    padding-top: 50%; /* Override padding for screens with a width less than 800px (phones) */
+  }
+}
 
 /* Standard syntax */
 @keyframes skyChange {
